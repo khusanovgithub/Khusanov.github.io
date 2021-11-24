@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    background-color: blue;
+    
+}
+
+.header_brand{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+    position: relative;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.container ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 15px;
+
+   
+}
+
+.container ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 16px;
+    position: relative;
+    left: 280px;
+}
+
+.container ul li a:hover{
+    color: black;
+    transition: 1s ease;
+}
+
+.nav_icons i{
+    position: relative;
+    padding:7px 7px;
+    left: 60px;
+    background-color: white;
+    border-radius: 50%;
+    top: 9px;
+    margin: 0 5px;
+}
